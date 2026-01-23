@@ -44,7 +44,14 @@ main {
     align-items: start;
 }
 
-.project-image img {
+.project-image {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project-image img,
+.project-image video {
     width: 100%;
     border: 1px solid #ddd;
 }
