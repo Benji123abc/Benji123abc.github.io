@@ -1,22 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Ben Gauck</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ben Gauck – Mechanical Engineering Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
-<header class="bg-slate-300 text-black sticky top-0 z-10">
-    <section class="mx-auto flex items-center">
-        <button id="home-button" class="p-4">HOME</button>
-        <button id="projects-button" class="p-4">PROJECTS</button>
-        <button id="other-button" class="p-4">OTHER</button>
-    </section>
+<body>
+
+<header>
+    <h1>Benjamin Gauck</h1>
+    <p class="subtitle">Mechanical Engineering Student</p>
+    <p class="intro">
+        Interested in mechanical design, analysis, and hands-on prototyping.
+    </p>
+    <p class="links">
+        <a href="cv.pdf">CV</a> ·
+        <a href="mailto:bengauck@icloud.com">Email</a> ·
+        <a href="https://github.com/Benji123abc">GitHub</a>
+    </p>
 </header>
-<main class="max-w-4x1 mx-auto">
-    <section class="flex flex-col-reverse justify-center p-6 items-center gap-8 mb-12 bottom-0">
-        <button class="rounded-md p-4 bg-blue-100 hover:bg-blue-200 active:bg-blue-300">Contact Me</button>
-        <h1 class="max-w-md text-6xl font-bold text-center">BEN GAUCK</h1>
+
+<main>
+    <hr class="divider">
+    <section class="project">
+        <div class="project-content">
+            <div class="project-text">
+                <h2>Project Title</h2>
+                <p class="project-meta">
+                    Course project · Team of 3 · 8 weeks · Role: Mechanical design
+                </p>
+
+                <h3>Problem</h3>
+                <p>
+                    Brief description of the engineering problem and constraints.
+                </p>
+
+                <h3>Approach</h3>
+                <ul>
+                    <li>Concept generation and selection</li>
+                    <li>Hand calculations and FEA (method only)</li>
+                    <li>Material and manufacturing trade-offs</li>
+                </ul>
+
+                <h3>Outcome</h3>
+                <p>
+                    Key results and lessons learned.
+                </p>
+
+                <p class="ip-note">
+                    Some details omitted to protect intellectual property.
+                </p>
+            </div>
+
+            <div class="project-image">
+                <img src="assets/project1.png" alt="Project image">
+            </div>
+        </div>
     </section>
+
+    <hr class="divider">
+    <section class="project">
+        <h2>Second Project Title</h2>
+        <p class="project-meta">Personal project · Solo</p>
+        <!-- Same structure as above -->
+    </section>
+
 </main>
+
+<footer>
+    <p>© Benjamin Gauck</p>
+</footer>
+
 </body>
 </html>
