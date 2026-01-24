@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ben Gauck – Mechanical Engineering Portfolio</title>
+    <title>Ben Gauck Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
+<header id="header">
     <h1>Benjamin Gauck</h1>
     <p class="subtitle">Mechanical Engineering Student at The University of Edinburgh</p>
     <p class="intro">
         Lifelong learner interested in full-stack product development, combining CAD/CAM, visual design, and modern software engineering.
     </p>
     <p class="links">
-        <a href="cv.pdf">CV</a> ·
+        <a href="assets/cv.pdf">CV</a> ·
         <a href="mailto:bengauck@icloud.com">Email</a> ·
-        <a href="https://github.com/Benji123abc">GitHub</a>
+        <a href="https://github.com/Benji123abc">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/ben-gauck-94682b365/">LinkedIn</a>
     </p>
 </header>
 <nav class="side-nav">
+    <h2><a href="#header">Project Portfolio</a></h2>
     <ul>
+        <li><a href="#real-estate">Web Investment Analysis</a></li>
         <li><a href="#ios-travel-app">iOS Travel App</a></li>
         <li><a href="#math-puzzle">Daily Math Puzzle</a></li>
         <li><a href="#go-kart">Electric Go Kart</a></li>
@@ -34,6 +36,46 @@
 </nav>
 <main>
     <hr class="divider">
+    <section class="project" id="real-estate">
+        <div class="project-content">
+            <div class="project-text">
+                <h2 class="project-title">Real Estate Investment Analysis & Dashboard</h2>
+                <p class="project-meta">
+                    Solo Project · 2025 - 2026
+                </p>
+                <p>
+                    Full-stack web development of a subscription service to provide user-friendly real estate investment analysis and metrics
+                </p>
+
+                <h3>Skills</h3>
+                <ul>
+                    <li>TypeScript</li>
+                    <li>React</li>
+                    <li>Ant Design</li>
+                    <li>Node.js</li>
+                    <li>Prisma</li>
+                    <li>PostgreSQL</li>
+                    <li>Stripe API</li>
+                    <li>OpenAI API</li>
+                    <li>Mailgun API</li>
+                    <li>JWT Authentication</li>
+                    <li>Database Management</li>
+                    <li>User-friendly GUI Design</li>
+                </ul>
+
+                <h3>Result</h3>
+                <p>
+                    Currently at working beta stage - working on this now and hope to launch sometime in the summer of 2026
+                </p>
+            </div>
+
+            <div class="project-image">
+                <img src="assets/property1.png" alt="Investment Image">
+                <img src="assets/property2.png" alt="Investment Image">
+            </div>
+        </div>
+    </section>
+    <hr class="divider">
     <section class="project" id="ios-travel-app">
         <div class="project-content">
             <div class="project-text">
@@ -42,27 +84,31 @@
                     Solo Project · 2025
                 </p>
                 <p>
-                    Full Stack iOS development using Swift, SwiftUI, Vapor, and Fluent
+                    Full-stack iOS development of a social travel, rating, and review app.
                 </p>
 
                 <h3>Skills</h3>
                 <ul>
-                    <li>Swift & SwiftUI</li>
+                    <li>Swift</li>
+                    <li>SwiftUI</li>
                     <li>Vapor: HTTP Web framework for Swift</li>
                     <li>Fluent: database ORM</li>
-                    <li>Front and Back end design and implementation</li>
+                    <li>Front- and Back-end design and implementation</li>
+                    <li>Digital Ocean Virtual Machine</li>
                     <li>Database design and management</li>
                     <li>User experience and behavior analysis</li>
+                    <li>Authentication</li>
                 </ul>
 
-                <h3>Outcome</h3>
+                <h3>Result</h3>
                 <p>
-                    Launched beta test with a dozen friends and worked through several iterations of improvements based on user feedback.
+                    Designed, deployed, and iterated through several versions based on real user beta feedback.”
                 </p>
             </div>
 
             <div class="project-image">
                 <img src="assets/elsewhere.png" alt="Social Media App Image">
+<!--                <img src="assets/elsewhere2.png" alt="Social Media App Image">-->
             </div>
         </div>
     </section>
@@ -75,24 +121,25 @@
                     Collaboration with Brother · 2024
                 </p>
                 <p>
-                    Front end iOS development using Swift, SwiftUI
+                    Front-end iOS and web development of a released daily math puzzle
                 </p>
 
                 <h3>Skills</h3>
                 <ul>
-                    <li>iOS: Swift & SwiftUI</li>
-                    <li>Web: Javascript & React</li>
-                    <li>Front end design and implementation</li>
+                    <li>Swift</li>
+                    <li>SwiftUI</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Front-end design and implementation</li>
                 </ul>
 
-                <h3>Outcome</h3>
+                <h3>Result</h3>
                 <p>
-                    Launched app on app store with nearly 30 five-star ratings
+                    Launched app on the App Store with nearly 30 five-star ratings
                 </p>
                 <a href="https://factor.samasaur.com">Website</a> ·
                 <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/us/app/factor/id6476070435&ved=2ahUKEwiZ5JDxo6GSAxVUUEEAHeiEJ1AQFnoECBcQAQ&usg=AOvVaw2Z3Wfs45emnrZOqzg_sYsv">App Store</a>
             </div>
-
             <div class="project-image">
                 <img src="assets/factor.jpeg" alt="Math Puzzle Image">
             </div>
@@ -104,29 +151,31 @@
             <div class="project-text">
                 <h2 class="project-title">Electric Go Kart</h2>
                 <p class="project-meta">
-                    Collaboration with Father · 2019
+                    Collaboration with Dad · 2019
                 </p>
                 <p>
-                    Front end iOS development using Swift, SwiftUI
+                    Research, Design, and Fabrication of a steel framed, 35mph, 3kW electric go-kart
                 </p>
 
                 <h3>Skills</h3>
                 <ul>
-                    <li>iOS: Swift & SwiftUI</li>
-                    <li>Web: Javascript & React</li>
-                    <li>Front end design and implementation</li>
+                    <li>OnShape</li>
+                    <li>Steel Machining</li>
+                    <li>MIG Welding</li>
+                    <li>Project management, budgeting, and component integration</li>
                 </ul>
 
-                <h3>Outcome</h3>
+                <h3>Result</h3>
                 <p>
-                    Launched app on app store with nearly 30 five-star ratings
+                    Extensive hands-on learning and successful operation.
                 </p>
-                <a href="https://factor.samasaur.com">Website</a> ·
-                <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/us/app/factor/id6476070435&ved=2ahUKEwiZ5JDxo6GSAxVUUEEAHeiEJ1AQFnoECBcQAQ&usg=AOvVaw2Z3Wfs45emnrZOqzg_sYsv">App Store</a>
             </div>
 
             <div class="project-image">
-                <img src="assets/gokart.jpeg" alt="Go Kart Image">
+                <img src="assets/gokart.jpg" alt="Go Kart Image">
+                <video src="assets/gokart.mp4" controls>
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
     </section>
@@ -139,19 +188,18 @@
                     Collaboration with Friend · 2024
                 </p>
                 <p>
-                    Front end iOS development using Swift, SwiftUI
+                    High-pressure pneumatic device to produce dust clouds for a friend's university film project
                 </p>
 
                 <h3>Skills</h3>
                 <ul>
-                    <li>iOS: Swift & SwiftUI</li>
-                    <li>Web: Javascript & React</li>
-                    <li>Front end design and implementation</li>
+                    <li>Pneumatic Design and Fabrication</li>
+                    <li>Form factor and performance optimization</li>
                 </ul>
 
-                <h3>Outcome</h3>
+                <h3>Result</h3>
                 <p>
-                    Launched app on app store with nearly 30 five-star ratings
+                    Produced a working, easily reusable prop that generates dust clouds at the press of a button.
                 </p>
             </div>
 
@@ -169,22 +217,25 @@
             <div class="project-text">
                 <h2 class="project-title">3D Motion Tracked VFX</h2>
                 <p class="project-meta">
-                    Solo Project · 2020 - Present
+                    Solo Hobby · 2018 - Present
                 </p>
                 <p>
-                    Front end iOS development using Swift, SwiftUI
+                    Blender to After Effects workflow for camera tracking and 3D compositing for visual effects shots
                 </p>
 
                 <h3>Skills</h3>
                 <ul>
-                    <li>iOS: Swift & SwiftUI</li>
-                    <li>Web: Javascript & React</li>
-                    <li>Front end design and implementation</li>
+                    <li>Adobe After Effects</li>
+                    <li>Blender</li>
+                    <li>3D Modeling</li>
+                    <li>Texturing</li>
+                    <li>Animation</li>
+                    <li>Camera & Lighting Work</li>
                 </ul>
 
-                <h3>Outcome</h3>
+                <h3>Result</h3>
                 <p>
-                    Launched app on app store with nearly 30 five-star ratings
+                    Ongoing hobby
                 </p>
             </div>
 
@@ -204,22 +255,23 @@
             <div class="project-text">
                 <h2 class="project-title">PCB Light Panels</h2>
                 <p class="project-meta">
-                    Collaboration with Father · 2023
+                    Collaboration with Dad · 2023
                 </p>
                 <p>
-                    Front end iOS development using Swift, SwiftUI
+                    Adjustable-color, battery- or outlet-powered light panels for use in a high school short film.
                 </p>
 
                 <h3>Skills</h3>
                 <ul>
-                    <li>iOS: Swift & SwiftUI</li>
-                    <li>Web: Javascript & React</li>
-                    <li>Front end design and implementation</li>
+                    <li>KiCAD</li>
+                    <li>JLC PCB (Board and Assembly)</li>
+                    <li>Electronics and PCB Design</li>
+                    <li>Component and Spec research</li>
                 </ul>
 
-                <h3>Outcome</h3>
+                <h3>Result</h3>
                 <p>
-                    Launched app on app store with nearly 30 five-star ratings
+                    Incredibly rapid design and fulfillment for durable and wide ranging use in film project.
                 </p>
             </div>
 
@@ -234,27 +286,34 @@
             <div class="project-text">
                 <h2 class="project-title">Arm Motion Capture and Mapping</h2>
                 <p class="project-meta">
-                    Collaboration with Father · 2023
+                    Solo Project · 2018 - 2022
                 </p>
                 <p>
-                    Front end iOS development using Swift, SwiftUI
+                    Electronics and programming project to fully capture and map arm and hand movements onto a 3D avatar
                 </p>
 
                 <h3>Skills</h3>
                 <ul>
-                    <li>iOS: Swift & SwiftUI</li>
-                    <li>Web: Javascript & React</li>
-                    <li>Front end design and implementation</li>
+                    <li>Arduino</li>
+                    <li>C#</li>
+                    <li>KiCAD</li>
+                    <li>Unity</li>
+                    <li>3D Printing</li>
+                    <li>I2C and wireless communication</li>
+                    <li>IMU and Flex Sensors</li>
                 </ul>
 
-                <h3>Outcome</h3>
+                <h3>Result</h3>
                 <p>
-                    Launched app on app store with nearly 30 five-star ratings
+                    Working motion capture and mapping to avatar in Unity
                 </p>
             </div>
 
             <div class="project-image">
                 <img src="assets/mocap.jpeg" alt="Motion Capture Image">
+                <video src="assets/cube.mp4" controls>
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
     </section>
@@ -262,29 +321,38 @@
     <section class="project" id="robotics">
         <div class="project-content">
             <div class="project-text">
-                <h2 class="project-title">FRC Robotics team 4373</h2>
+                <h2 class="project-title">FRC Robotics Team 4373</h2>
                 <p class="project-meta">
-                    Collaboration with Team · 2018-2023
+                    Collaboration with Team · 2018 - 2023
                 </p>
                 <p>
-                    Front end iOS development using Swift, SwiftUI
+                    Solo Programmer for two and a half years - team lead and teacher of Java and OnShape
                 </p>
 
                 <h3>Skills</h3>
                 <ul>
-                    <li>iOS: Swift & SwiftUI</li>
-                    <li>Web: Javascript & React</li>
-                    <li>Front end design and implementation</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>OnShape</li>
+                    <li>PID control and system identification</li>
+                    <li>Vision Processing</li>
+                    <li>Hardware and Software Integration</li>
                 </ul>
 
-                <h3>Outcome</h3>
+                <h3>Result</h3>
                 <p>
-                    Launched app on app store with nearly 30 five-star ratings
+                    Advanced to districts competition junior year
+                    </p>
+                <p>
+                    Made it to worlds senior year!
+                    </p>
+                <p>
+                    Autonomous Mode Programming Award - 2023 at the FIRST Robotics Competition, Bensalem, PA, Regional Event
                 </p>
             </div>
 
             <div class="project-image">
-                <img src="assets/robotics.jpeg" alt="Robotics Image">
+                <img src="assets/robotics.jpg" alt="Robotics Image">
                 <video src="assets/robotics.mp4" controls>
                     Your browser does not support the video tag.
                 </video>
