@@ -58,6 +58,20 @@ main {
     .project-content {
         grid-template-columns: 1fr;
     }
+
+    .side-nav {
+        display: none;
+    }
+
+    main {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    header {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }
 
 .project {
